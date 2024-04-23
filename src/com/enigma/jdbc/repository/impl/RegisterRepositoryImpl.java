@@ -1,7 +1,8 @@
-package com.enigma.jdbc.repository;
+package com.enigma.jdbc.repository.impl;
 
 import com.enigma.jdbc.config.DBConnector;
 import com.enigma.jdbc.entity.User;
+import com.enigma.jdbc.repository.RegisterRepository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
