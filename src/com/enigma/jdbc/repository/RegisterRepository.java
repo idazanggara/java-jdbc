@@ -13,4 +13,12 @@ public interface RegisterRepository {
 	// entity itu adalah object yang merepresentasikan tabel-tabel yang ada di database
 	// kita buat class baru, buat nama classnya Register di entiity.
 	User findById(Integer id);
+
+
+	// tugas
+	// findAll() -> list
+	// update(User user -> int
+	// deleteById(Integer id) -> int
+	// findByName(String name) -> User
+	// repo -> customer, table, category
 }
